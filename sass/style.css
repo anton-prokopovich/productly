@@ -691,6 +691,7 @@ h5 {
 
 .footer-navigation {
   flex-grow: 1;
+  padding-left: 152px;
 }
 
 .footer-navigation__title {
