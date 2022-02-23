@@ -33,6 +33,9 @@
     @extend %font-add;
     display: inline-flex;
     align-items: center;
+    &:hover {
+        color: $color-additional;
+    }
 }
 
 .link-button__text {
