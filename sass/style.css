@@ -986,6 +986,26 @@ h5 {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .tool-container {
+    flex-wrap: wrap;
+  }
+}
+.tool-container > .tool {
+  flex-basis: 45%;
+}
+
+@media (max-width: 768px) {
+  .tool {
+    text-align: center;
+    margin-bottom: 54px;
+  }
+}
+
+.tool:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
 .tool__title {
   margin: 0 0 16px;
 }
