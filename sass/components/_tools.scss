@@ -20,6 +20,12 @@
 .tools__button {
     margin-top: 60px;
     text-align: center;
+    @include media-tablet {
+        margin-top: 0;
+    }
+    @include media-mobile {
+        margin-top: 0;
+    }
 }
 
 // Tool Block
@@ -29,21 +35,14 @@
         >.tool {
             flex-basis: 45%;
             margin-bottom: 54px;
-            &:nth-last-child(-n+2) {
-                margin-bottom: 0;
-            }
         }
     }
     @include media-mobile {
         >.tool {
             flex-basis: 100%;
             margin-bottom: 47px;
-            &:nth-child(3) {
-                margin-bottom: 47px;
-            }
         }
     }
-
 }
 
 .tool {
