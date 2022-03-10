@@ -491,6 +491,14 @@ h4 {
   font-style: normal;
   line-height: 3rem;
 }
+@media (max-width: 768px) {
+  h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 3rem;
+  }
+}
 
 h5 {
   font-size: 1.6rem;
@@ -508,10 +516,9 @@ h5 {
   display: flex;
 }
 
-@media (max-width: 414px) {
-  .logo-object {
-    width: 160px;
-  }
+.logo-object {
+  width: 160px;
+  height: 30px;
 }
 
 .logo-svg:hover .logo-path {
@@ -781,14 +788,40 @@ h5 {
 .footer {
   padding: 60px 0 70px;
 }
+@media (max-width: 768px) {
+  .footer {
+    padding: 47px 0 26px;
+  }
+}
+@media (max-width: 414px) {
+  .footer {
+    padding: 31px 0 0;
+  }
+}
 
 .footer__wrapper {
   display: flex;
+}
+@media (max-width: 768px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
 }
 
 .footer-navigation {
   flex-grow: 1;
   padding-left: 152px;
+}
+@media (max-width: 768px) {
+  .footer-navigation {
+    padding-left: 0;
+    margin-top: 34px;
+  }
+}
+@media (max-width: 414px) {
+  .footer-navigation {
+    flex-direction: column;
+  }
 }
 
 .footer-navigation__title {
@@ -814,6 +847,7 @@ h5 {
 @media (max-width: 768px) {
   .contact-us {
     text-align: center;
+    padding-bottom: 50px;
   }
 }
 
