@@ -22,6 +22,7 @@
     &_blue {
         background-color: $color-blue;
     }
+    cursor: pointer;
 }
 
 .icon-round {
@@ -49,31 +50,31 @@
 }
 
 .ico_snake {
-    background-image: url("../../img/icons/snake.svg");
+    background-image: url("../img/icons/snake.svg");
     width: 18px;
     height: 14px;
 }
 
 .ico_heart {
-    background-image: url("../../img/icons/heart.svg");
+    background-image: url("../img/icons/heart.svg");
     width: 17px;
     height: 15px;
 }
 
 .ico_clock {
-    background-image: url("../../img/icons/clock.svg");
+    background-image: url("../img/icons/clock.svg");
     width: 15px;
     height: 17px;
 }
 
 .ico_phone {
-    background-image: url("../../img/icons/phone.svg");
+    background-image: url("../img/icons/phone.svg");
     width: 13px;
     height: 13px;
 }
 
 .ico_letter {
-    background-image: url("../../img/icons/letter.svg");
+    background-image: url("../img/icons/letter.svg");
     width: 11px;
     height: 8px;
 }
