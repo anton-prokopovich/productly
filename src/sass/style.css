@@ -1152,6 +1152,9 @@ h5 {
   display: flex;
   flex-direction: column;
 }
+.strategy_hidden {
+  display: none;
+}
 @media (max-width: 768px) {
   .strategy {
     overflow: hidden;
