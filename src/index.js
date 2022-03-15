@@ -101,5 +101,6 @@ const generateArticles = (data) => {
     data.forEach(article => {
         articles.push(new Article(article))
     });
+    
     return articles;
 }
