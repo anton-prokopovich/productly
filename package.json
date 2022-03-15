@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/anton-prokopovich/productly#readme",
   "dependencies": {
-    "normalize-scss": "^7.0.1"
+    "normalize-scss": "^7.0.1",
+    "webpack": "^5.70.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
   }
 }
